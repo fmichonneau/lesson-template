@@ -1,8 +1,8 @@
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    color: rgb(03,03,03);
-    font-family: "Montserrat", "Helvetica", "Arial";
+    font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+    font-weight: bold;
 }
 
 h1, h2 {
@@ -80,7 +80,7 @@ blockquote.testimonial cite {
 
 /* Main body of pages. */
 body {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
     color: rgb(03, 03, 03);
 }
 
@@ -93,7 +93,7 @@ body.workshop, body.lesson {
 body.stylesheet {
     background: #ffffff;
     width: 60em;
-    margin: 20 auto;
+    margin: 20px auto;
 }
 
 
@@ -154,13 +154,14 @@ blockquote h2{
 	max-width: none;
 }
 
-
-.hero-unit {
+.jumbotron {
     padding: 20px;
 }
+
 .navbar .container {
     background-color: inherit;
 }
+
 .navbar-inner {
     min-height: 40px;
     padding-right: 20px;
@@ -172,9 +173,11 @@ blockquote h2{
     -moz-border-radius: 0;
     border-radius: 0;
 }
+
 code {
     color: #333333;
 }
+
 .navbar-inverse .navbar-inner {
     background-color: #20267D;
     background-image: none;
@@ -442,11 +445,11 @@ section.content {
 }
 
 #nav-logo {
-    width:270px;
-    height:40px;
-    top:5;
-    left:10;
-    position:absolute;
+    width: 270px;
+    height: 40px;
+    top: 5px;
+    left: 10px;
+    position: absolute;
     z-index: 10;
 }
 
